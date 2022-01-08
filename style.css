@@ -38,6 +38,11 @@ h2{
      padding-bottom: 10px;
  }
 
+ .card-img-top{
+     max-width: 100%;
+     height: auto;
+ }
+
  .h5{
      margin-top: 5px;
  }
