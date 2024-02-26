@@ -1,4 +1,7 @@
 import {
+  java,
+  psql,
+  spark,
   mobile,
   backend,
   creator,
@@ -31,31 +34,31 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
+    id: "freelancing",
+    title: "Freelancing"
+  }
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Java (Core Spring, Hibernate, Spring Cloud...)",
+    icon: java,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Data Engineering (Spark, Hadoop, Kafka...)",
+    icon: spark,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Cloud/Devops (GCP, Docker, Ansible...)",
+    icon: docker,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Web Scraping/DBA (Selenium, BS4, MySql/PSql/SQLite...)",
+    icon: psql,
   },
 ];
 
