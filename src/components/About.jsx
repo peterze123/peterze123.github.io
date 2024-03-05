@@ -44,7 +44,7 @@ const About = () => {
 
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
-                className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
+                className='mt-4 text-white text-[20px] max-w-3xl leading-[30px]'
             >
                 I'm a recent grad software engineer with experience across the SDLC,
                 and expertise in backend/data frameworks like Spring Projects and Hadoop Mapreduce.

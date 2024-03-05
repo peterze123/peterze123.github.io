@@ -45,11 +45,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Java (Core Spring, Hibernate, Spring Cloud...)",
+    title: "Backend (Core Spring, Hibernate, Spring Cloud...)",
     icon: java,
   },
   {
-    title: "Data Engineering (Spark, Hadoop, Kafka...)",
+    title: "Data Engineering (Spark, MapReduce, Kafka...)",
     icon: spark,
   },
   {
@@ -119,85 +119,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Bachelor's in CS and Business Studies",
+    company_name: "NYU",
+    icon: null,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2020 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Earning the distinction .",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Automation Engineer Intern",
+    company_name: "Numerix",
+    icon: numerix,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2022 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed the UI/Financial validation test suite to ensure trading model accuracy for the core risk management service, using PyTest, Selenium, Requests and Allure to achieve an increase of 50% test coverage.",
+      "Implemented extra build dependencies using Ansible and TeamCity agents to conduct and monitor automated regression testing, resulting in reduction in QA testing cycles from 2 weeks to 1 week.",
+      " Owned the escalation process for product regressions incident reporting via Jira, including contributions to internal Python tooling to reduce ticket resolution time by 100%.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer Intern",
+    company_name: "Tamr",
+    icon: tamr,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an integration simplifying data-transformation, resulting in a 100% reduction in time required for SQL consolidation, by developing a no-code solution in HiveSQL, Spring Boot, React.",
+      "Won the best project award for the idea and scaled it into a production feature by creating RESTful APIs with Spring to integrate the user workflow, the feature was explicitly mentioned by clients like Janssen",
+      "Led development of presales field assets by leveraging company microservices in React for Proof-of-Concept demos, increasing client conversion rates by 50%.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+    title: "Software Engineer - Analyst",
+    company_name: "Deutsche Bank",
+    icon: db,
+    iconBG: "#383E56",
+    date: "July 2024 - Present"
+  }
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
