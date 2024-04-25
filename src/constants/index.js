@@ -1,12 +1,7 @@
-y
 import {
   java,
   psql,
   spark,
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -19,10 +14,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -135,7 +126,7 @@ const experiences = [
   {
     title: "Software Automation Engineer Intern",
     company_name: "Numerix",
-    icon: numerix,
+    icon: null,
     iconBg: "#E6DEDD",
     date: "September 2022 - December 2022",
     points: [
@@ -147,7 +138,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Tamr",
-    icon: tamr,
+    icon: null,
     iconBg: "#383E56",
     date: "May 2023 - September 2023",
     points: [
@@ -159,9 +150,12 @@ const experiences = [
   {
     title: "Software Engineer - Analyst",
     company_name: "Deutsche Bank",
-    icon: db,
+    icon: null,
     iconBG: "#383E56",
-    date: "July 2024 - Present"
+    date: "July 2024 - Present",
+    points:[
+
+    ]
   }
 ];
 
@@ -232,4 +226,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
