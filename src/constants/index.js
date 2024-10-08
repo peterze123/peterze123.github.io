@@ -14,10 +14,10 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  greentree,
+  netease,
+  team
 } from "../assets";
 
 export const navLinks = [
@@ -154,7 +154,14 @@ const experiences = [
     iconBG: "#383E56",
     date: "July 2024 - Present",
     points:[
-
+      "Collaborated with senior engineers to refactor an in-memory messaging queue solution with Spring Kafka,\n" +
+      "enhancing the reliability and scalability of SPR as a whole; the cluster working with the outbox/subscription\n" +
+      "services handles on-average 14000 IOPS of upstream trade events for all topics combined",
+      "Engineered over 25 unit tests with Mockito, Mock Producers/Consumers, and renovated one suite of\n" +
+      "integration tests utilizing Embedded Kafka, resulting in a 22% reduction of SLOC for messaging-related tests\n" +
+      "in comparison to the legacy in-memory broker tests",
+      "Documented more than 9 entries on the internal project Wiki, detailing POCs with Apache Java Client vs\n" +
+      "Spring Kafka, partitioning strategies, and logging configurations for Embedded Kafka, etc."
     ]
   }
 ];
@@ -162,67 +169,31 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GreenTree Capital",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "A freelancing project of a landing site for a real estate firm based in China, notably implemented a language switch feature",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: greentree,
+    source_code_link: "https://www.greentree.group/"
   },
   {
-    name: "Job IT",
+    name: "Netease Parser",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "A freelancing project of a startup aiming to identify unlicensed music in Netease, a chinese music platform. The project consists of deploying and running ETL scripts to batch parse music",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: netease,
+    source_code_link: "https://github.com/peterze123/netease_parser/blob/main/audit_generator.py"
   },
   {
-    name: "Trip Guide",
+    name: "Team Noteboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "A full stack project focused on team collaboration, notably a draggable drawing board and a semi-cookie implementation",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: team,
+    source_code_link: "https://github.com/peterze123/team_noteboard"
   },
 ];
 

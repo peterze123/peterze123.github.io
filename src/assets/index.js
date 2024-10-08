@@ -34,6 +34,10 @@ import spark from "./spark.png"
 import psql from "./psql.svg.png"
 import docker from "./docker.png"
 
+import greentree from "./greentree.png"
+import netease from "./netease.png"
+import team from "./public.png"
+
 export {
   logo,
   backend,
@@ -65,5 +69,8 @@ export {
   tripguide,
   java,
   psql,
-  spark
+  spark,
+  greentree,
+  netease,
+  team
 };
