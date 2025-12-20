@@ -46,10 +46,9 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-white text-[20px] max-w-3xl leading-[30px]'
             >
-                I'm a recent grad software engineer with experience across the SDLC,
+                I'm a software engineer with experience across the SDLC,
                 and expertise in backend/data frameworks like Spring Projects and Hadoop Mapreduce.
-                I'm a team-first player who is passionate about financial technology and am dedicated
-                to build scalable and business-logic focused services. Additionally, I have worked directly with clients
+                I'm a team-first player and am dedicated to build scalable and business-logic focused services. Additionally, I have worked directly with clients
                 through my freelancing sidelines focused on data mining/curation.
             </motion.p>
 
